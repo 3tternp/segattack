@@ -7,8 +7,6 @@ Features
 
 
 
-
-
 DNS Spoofing: Redirects DNS queries to attacker-controlled IPs.
 
 
@@ -41,12 +39,9 @@ Modular Design: Python (Scapy) and Bash (hping3, arping) implementations.
 
 
 
-Nepal Compliance: Avoids restricted APIs (e.g., social media ban, September 2025).
-
 Installation
 
 Prerequisites
-
 
 
 
@@ -113,15 +108,11 @@ Authorized Use Only: SegAttack is for controlled red team engagements with expli
 Detection and Mitigation
 
 
-
-
-
 Monitor: Use Wireshark to capture packets.
 
 
 
 Mitigate: Enable DHCP snooping, ARP inspection, port security, MAC limiting, and STP protections.
-
 
 
 Test: Verify VLAN hopping or traffic leakage post-attack.
