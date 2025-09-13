@@ -67,8 +67,10 @@ Root Privileges: Required for packet crafting and iptables.
 
 Setup
 
-git clone https://github.com/yourusername/segattack.git
+git clone https://github.com/3tternp/segattack.git
+
 cd segattack
+
 pip install -r requirements.txt
 
 requirements.txt
